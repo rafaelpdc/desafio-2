@@ -103,33 +103,56 @@ p{
 }
 
 @media screen and (max-width:600px) {
-    header{
+    .container{
+        width: 100vw;
+        height:100vh;
+        max-width: 80%;
+    }
+    .esquerda{
         display: none;
     }
-    body{
-        height: 100vh;
-        width: 100vw;
-    }
     img{
-        margin: 215px 23px 0 0;
-        Width:354px;
-        Height:317px;
-        padding: 20px;
+        width: 354px;
+        height: 317px;
+        margin-top: 60px;
     }
     h1{
-        Width:263px;
-        Height:52px;
         font-size: 50px;
+        text-align: center;
+
     }
     h3{
-        width: 232px;
-        height: 37px;
         font-size: 30px;
-        margin-bottom: 20px;
+        text-align: center;
+        position: absolute;
+        top: 78px;
+        right: -115px;
+}
     }
     p{
         display: none;
     }
+    .explore{
+        width: 239px;
+        height: 64px;
+        font-size: 28px;
+        right: -8px;
+        position: absolute;
+        top: 122px;
+        
+}
+@media screen and (max-width:400px) {
+    h3{
+        position: absolute;
+        left:10px;
+    }
+    .explore{
+        position: absolute;
+        left:110px
+    }
+    .img{
+        margin-top: 142px;
+    }
+}
     
 
-}
