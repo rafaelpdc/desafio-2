@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    height: 90vh;
+    width: 100vw;
+}
+section{
+    width: 50vw;
+}
+.esquerda{
+   
+}
+.direita{
+    display: inline-block;
+    position: absolute;
+    margin-left: 86px;
+
+}
+nav{
+    margin: 44px 144px 77px;
+}
+a{
+    text-decoration: none;
+    color: rgba(152, 157, 156, 1);
+    margin-right:23px ;
+    font-weight: 600;
+}
+.login{
+    background-color:hsl(245, 69%, 62%);
+    Width:130px;
+    Height:41px;
+    border: none;
+    border-radius: 20.5px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+}
+.login:hover{
+    background-color:hsl(245, 73%, 54%);;
+
+}
+.login:active{
+    background-color: hsl(245, 61%, 36%);
+}
+img{
+    Width:568px;
+    Height:500px;
+    margin-left: 125px;
+}
+.img{
+    display: inline-block;
+}
+h1{
+    width: 513px;
+    height: 122px;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgba(81, 81, 81, 1);
+    margin: 12px -40px;
+}
+h3{
+    Width:448px;
+    Height:71px;
+    font-size: 58px;
+    font-weight: 500;
+    color: rgba(81, 81, 81, 1);
+    display: block;
+    margin: 0 -27px;
+}
+p{
+    Width:515px;
+    Height:87px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+
+}
+.explore{
+    Width:239px;
+    Height:64px;
+   background-color: rgba(173, 255, 0, 1);
+   border-radius: 50px;
+   border: none;
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 5px 12px;
+   cursor: pointer;
+   font-size: 28px;
+   font-weight: 700;
+   color: rgba(0, 0, 0, 1);
+   margin: 36px -30px;
+}
+.explore:hover{
+    background-color: rgba(138, 178, 53, 0.838);
+}
+.explore:active{
+   background-color:  rgb(116, 163, 16);
+}
+
+@media screen and (max-width:400px) {
+    header{
+        display: none;
+    }
+    body{
+        height: 100vh;
+        width: 100vw;
+    }
+    img{
+        margin: 215px 23px 0 0;
+        Width:354px;
+        Height:317px;
+        padding: 20px;
+    }
+    h1{
+        Width:263px;
+        Height:52px;
+        font-size: 50px;
+    }
+    h3{
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    p{
+        display: none;
+    }
+    
+
+}
