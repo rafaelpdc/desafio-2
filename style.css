@@ -95,6 +95,7 @@ p{
    color: rgba(0, 0, 0, 1);
    margin: 36px -30px;
    
+   
 }
 .explore:hover{
     background-color: rgba(138, 178, 53, 0.838);
@@ -137,7 +138,7 @@ p{
         height: 64px;
         font-size: 28px;
         right: -8px;
-        position: absolute;
+        /* position: absolute; */
         top: 122px;
         
 }
